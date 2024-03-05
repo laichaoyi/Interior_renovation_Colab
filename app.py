@@ -105,9 +105,9 @@ def generate_image(
 # Create the Gradio interface
 with gr.Blocks(title="Interior Renovation Ai") as demo:
     gr.Markdown("""# Interior Renovation Ai""")   
-    gr.Markdown("โปรแกรมสำหรับรีโนเวทห้องด้วย Ai | fb.com/PromptAlchemist")  
+    gr.Markdown("Facebook nhóm Học viện Ai | https://www.facebook.com/groups/hvaisd")  
     with gr.Row():
-        prompt = gr.Textbox(lines=1, placeholder="เขียนพรอมต์ที่ต้องการเช่น Living room", label="Prompt")
+        prompt = gr.Textbox(lines=1, placeholder="Viết prompt để tạo: Living room", label="Prompt")
         negative_prompt = gr.Textbox(lines=1, value="Low quality, bad quality, worst quality, 3d, cartoon, painting", label="Negative Prompt")
 
     with gr.Row():
